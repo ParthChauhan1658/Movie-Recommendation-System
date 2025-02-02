@@ -21,6 +21,10 @@ The dataset used in this project is sourced from [MovieLens](https://grouplens.o
    git clone https://github.com/ParthChauhan1658/Movie-Recommendation-System.git
    cd Movie-Recommendation-System
    ```
+5. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Techniques Used
 -**Exploratory Data Analysis (EDA)** : Analyzed user behavior, movie popularity, and rating distributions.
@@ -30,4 +34,4 @@ The dataset used in this project is sourced from [MovieLens](https://grouplens.o
 -**Model Training** : Trained recommendation models using libraries like scikit-learn and surprise.
 
 ## Deployment
-The app can be deployed on platforms like Streamlit Cloud or Heroku for public access
+The app can be deployed on platforms like [Streamlit Cloud](https://streamlit.io/cloud) or Heroku for public access
