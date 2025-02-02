@@ -25,13 +25,14 @@ The dataset used in this project is sourced from [MovieLens](https://grouplens.o
    ```bash
    streamlit run app.py
    ```
+6. Input a user ID and movie genres or movie title to get personalized recommendations.
 
 ## Techniques Used
--**Exploratory Data Analysis (EDA)** : Analyzed user behavior, movie popularity, and rating distributions.
--**Collaborative Filtering** : Found patterns among users with similar tastes to recommend movies.
--**Content-Based Filtering** : Recommended movies similar to ones the user has liked based on genres and metadata.
--**Hybrid Approach** : Combined collaborative and content-based filtering for improved accuracy.
--**Model Training** : Trained recommendation models using libraries like scikit-learn and surprise.
+- **Exploratory Data Analysis (EDA)** : Analyzed user behavior, movie popularity, and rating distributions.
+- **Collaborative Filtering** : Found patterns among users with similar tastes to recommend movies.
+- **Content-Based Filtering** : Recommended movies similar to ones the user has liked based on genres and metadata.
+- **Hybrid Approach** : Combined collaborative and content-based filtering for improved accuracy.
+- **Model Training** : Trained recommendation models using libraries like scikit-learn and surprise.
 
 ## Deployment
 The app can be deployed on platforms like [Streamlit Cloud](https://streamlit.io/cloud) or Heroku for public access
