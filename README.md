@@ -13,12 +13,14 @@ The dataset used in this project is sourced from MovieLens , a popular dataset f
 ## How to Use
 1. Install Python 3.x from python.org 
 2. Install the required libraries using pip:
-   '''bash
+   ```bash
    pip install -r requirements.txt
-   '''
+   ```
 4. Clone the Repository :
+   ```bash 
    git clone https://github.com/ParthChauhan1658/Movie-Recommendation-System.git
    cd Movie-Recommendation-System
+   ```
 
 ## Techniques Used
 Exploratory Data Analysis (EDA) : Analyzed user behavior, movie popularity, and rating distributions.
